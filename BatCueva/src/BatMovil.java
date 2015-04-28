@@ -16,7 +16,9 @@ public class BatMovil extends JFrame {
 	public BatMovil() {
 		//Definimos las propiedades de la ventana
 		getContentPane().setLayout(null);
+
 		setBounds(200, 100, 350, 300);
+		
 		//Etiquetas
 		JLabel usuario = new JLabel("Usuario");
 		usuario.setBounds(10, 80, 200, 50);
@@ -37,7 +39,6 @@ public class BatMovil extends JFrame {
 		caja_usuario.setColumns(10);
 		caja_usuario.setBounds(10, 129, 296, 20);
 		getContentPane().add(caja_usuario);
-		setBounds(200, 100, 350, 300);
 
 	}
 	
