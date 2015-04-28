@@ -35,7 +35,7 @@ public class BatMovil extends JFrame {
 		caja_usuario.setColumns(10);
 		caja_usuario.setBounds(10, 129, 296, 20);
 		getContentPane().add(caja_usuario);
-		setBounds(200, 100, 350, 300);
+		setBounds(200, 100, 250, 300);
 
 		
 		
