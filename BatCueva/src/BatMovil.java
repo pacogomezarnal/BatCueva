@@ -12,10 +12,11 @@ public class BatMovil extends JFrame {
 	 */
 	public BatMovil() {
 		getContentPane().setLayout(null);
-		
+
 		JLabel nombre = new JLabel("BatMovil");
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
+		setBounds(100, 100, 450, 300);
 
 	}
 }
