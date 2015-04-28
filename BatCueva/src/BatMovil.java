@@ -33,12 +33,14 @@ public class BatMovil extends JFrame {
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		
-
-		
 		caja_usuario = new JTextField();
 		caja_usuario.setColumns(10);
 		caja_usuario.setBounds(10, 129, 296, 20);
 		getContentPane().add(caja_usuario);
+		
+		JLabel lblPassword = new JLabel("Password");
+		lblPassword.setBounds(10, 155, 200, 50);
+		getContentPane().add(lblPassword);
 
 	}
 	
