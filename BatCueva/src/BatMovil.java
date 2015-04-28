@@ -19,7 +19,7 @@ public class BatMovil extends JFrame {
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
 		textField = new JTextField();
-		textField.setBounds(10, 54, 86, 20);
+		textField.setBounds(10, 54, 296, 20);
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		setBounds(200, 100, 450, 300);
