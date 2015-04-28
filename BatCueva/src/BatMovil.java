@@ -16,7 +16,7 @@ public class BatMovil extends JFrame {
 		JLabel nombre = new JLabel("BatMovil");
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
-		setBounds(100, 100, 450, 300);
+		setBounds(200, 100, 450, 300);
 
 	}
 }
