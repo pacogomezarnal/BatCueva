@@ -13,8 +13,11 @@ public class BatMovil extends JFrame {
 	 * Create the panel.
 	 */
 	public BatMovil() {
+		//Definimos las propiedades de la ventana
 		getContentPane().setLayout(null);
+		setBounds(200, 100, 350, 300);
 
+		//Contenido
 		JLabel nombre = new JLabel("BatMovil");
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
