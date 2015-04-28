@@ -24,7 +24,12 @@ public class BatMovil extends JFrame {
 		usuario.setBounds(10, 80, 200, 50);
 		getContentPane().add(usuario);
 		
+		JLabel lblMensages = new JLabel("Mensages");
+		lblMensages.setBounds(10, 237, 73, 14);
+		getContentPane().add(lblMensages);
+		
 		//Cajas
+		
 		JLabel nombre = new JLabel("BatMovil");
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
@@ -33,16 +38,18 @@ public class BatMovil extends JFrame {
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		
-
 		
 		caja_usuario = new JTextField();
 		caja_usuario.setColumns(10);
 		caja_usuario.setBounds(10, 129, 296, 20);
+		
+		
 		getContentPane().add(caja_usuario);
+		
+
 
 	}
 	
 	private void setDimensions(){
 	}
-	
 }
