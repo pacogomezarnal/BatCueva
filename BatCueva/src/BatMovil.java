@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 
 public class BatMovil extends JFrame {
 	private JTextField textField;
+	private JTextField textField_1;
 	//Esta es la primera aportacion de robin
 
 	/**
@@ -29,6 +30,11 @@ public class BatMovil extends JFrame {
 		JLabel usuario = new JLabel("Usuario");
 		usuario.setBounds(10, 80, 200, 50);
 		getContentPane().add(usuario);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(10, 124, 296, 20);
+		getContentPane().add(textField_1);
 		setBounds(200, 100, 350, 300);
 
 		
