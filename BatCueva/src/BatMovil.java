@@ -17,8 +17,12 @@ public class BatMovil extends JFrame {
 		//Definimos las propiedades de la ventana
 		getContentPane().setLayout(null);
 		setBounds(200, 100, 350, 300);
-
-		//Contenido
+		//Etiquetas
+		JLabel usuario = new JLabel("Usuario");
+		usuario.setBounds(10, 80, 200, 50);
+		getContentPane().add(usuario);
+		
+		//Cajas
 		JLabel nombre = new JLabel("BatMovil");
 		nombre.setBounds(10, 10, 85, 50);
 		getContentPane().add(nombre);
@@ -27,9 +31,7 @@ public class BatMovil extends JFrame {
 		getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		JLabel usuario = new JLabel("Usuario");
-		usuario.setBounds(10, 80, 200, 50);
-		getContentPane().add(usuario);
+
 		
 		caja_usuario = new JTextField();
 		caja_usuario.setColumns(10);
@@ -37,8 +39,6 @@ public class BatMovil extends JFrame {
 		getContentPane().add(caja_usuario);
 		setBounds(200, 100, 350, 300);
 
-		
-		
 	}
 	
 	private void setDimensions(){
