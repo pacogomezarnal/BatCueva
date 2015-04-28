@@ -10,6 +10,7 @@ public class BatMovil extends JFrame {
 	 * Create the panel.
 	 */
 	public BatMovil() {
+		getContentPane().setLayout(null);
 
 	}
 
