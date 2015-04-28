@@ -40,4 +40,8 @@ public class BatMovil extends JFrame {
 		
 		
 	}
+	
+	private void setDimensions(){
+	}
+	
 }
