@@ -11,6 +11,7 @@ public class BatMovil extends JFrame {
 	 */
 	public BatMovil() {
 		getContentPane().setLayout(null);
+		setBounds(100, 100, 450, 300);
 
 	}
 
