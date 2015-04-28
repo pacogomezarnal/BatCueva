@@ -22,7 +22,7 @@ public class BatMovil extends JFrame {
 		textField.setBounds(10, 54, 296, 20);
 		getContentPane().add(textField);
 		textField.setColumns(10);
-		setBounds(200, 100, 450, 300);
+		setBounds(200, 100, 350, 300);
 
 		
 	}
